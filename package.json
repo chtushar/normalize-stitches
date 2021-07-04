@@ -1,0 +1,18 @@
+{
+  "name": "modern-normalize",
+  "version": "0.0.1",
+  "description": "CSS-in-JS implementation of normalize.css for Stitches",
+  "author": "Tushar Choudhari <choudharit23@gmail.com>",
+  "license": "MIT",
+  "main": "out/index.ts",
+  "scripts": {
+    "build": "esbuild \"src/index.ts\" --bundle --outfile=\"out/index.ts\""
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.14"
+  },
+  "dependencies": {
+    "@stitches/core": "^0.2.2",
+    "@stitches/react": "^0.2.2"
+  }
+}
