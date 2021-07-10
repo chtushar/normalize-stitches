@@ -1,6 +1,6 @@
 {
   "name": "modern-normalize",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CSS-in-JS implementation of normalize.css for Stitches",
   "author": "Tushar Choudhari <choudharit23@gmail.com>",
   "license": "MIT",
