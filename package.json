@@ -12,7 +12,6 @@
     "esbuild": "^0.12.14"
   },
   "dependencies": {
-    "@stitches/core": "^0.2.2",
-    "@stitches/react": "^0.2.2"
+    "@stitches/core": "^0.2.2"
   }
 }
