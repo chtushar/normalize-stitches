@@ -24,7 +24,8 @@ export type Definition =
  * CSS to normalize abnormalities across browsers (normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css)
  * @example
  * ```ts
- * import { normalize } from 'modern-normalize'
+ * import { global } from '@stitches/react';
+ * import { normalize } from 'modern-normalize';
  *
  * const globalStyles = global({
  *  ...normalize,
