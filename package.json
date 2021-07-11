@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "out/index.js",
   "module": "out/esm/index.js",
-  "types": "out/index.d.ts",
+  "types": "*.d.ts",
   "files": [
     "out"
   ],
