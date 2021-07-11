@@ -10,7 +10,7 @@ import type {
  *
  * reference - https://github.com/modulz/stitches/blob/1fa120b8c29789d5ef464958bdb5e9e493b16fe8/packages/react/types/styled.d.ts#L276
  */
-export type Definition =
+export type GloablDefinition =
   | OmitKey<
       Record<
         string,
@@ -354,4 +354,4 @@ export const normalize = {
   '[hidden]': {
     display: 'none',
   },
-} as Definition;
+} as GloablDefinition;
