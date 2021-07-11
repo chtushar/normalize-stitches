@@ -4,11 +4,11 @@
   "description": "CSS-in-JS implementation of normalize.css for Stitches",
   "author": "Tushar Choudhari <choudharit23@gmail.com>",
   "license": "MIT",
-  "main": "lib/index.js",
-  "module": "lib/esm/index.js",
-  "types": "lib/index.d.ts",
+  "main": "out/index.js",
+  "module": "out/esm/index.js",
+  "types": "out/index.d.ts",
   "files": [
-    "lib"
+    "out"
   ],
   "keywords": [
     "css",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "tsc && tsc -p tsconfig.esm.json",
-    "prebuild": "rm -rf lib && mkdir -p lib"
+    "prebuild": "rm -rf out && mkdir -p out"
   },
   "devDependencies": {
     "typescript": "^4.3.5"
