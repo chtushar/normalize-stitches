@@ -24,9 +24,6 @@
     "build": "tsc && tsc -p tsconfig.esm.json",
     "prebuild": "rm -rf lib && mkdir -p lib"
   },
-  "dependencies": {
-    "@stitches/core": "^0.2.2"
-  },
   "devDependencies": {
     "typescript": "^4.3.5"
   }
