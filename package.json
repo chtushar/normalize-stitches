@@ -1,6 +1,6 @@
 {
   "name": "normalize-stitches",
-  "version": "0.1.1-beta.5",
+  "version": "0.1.1-beta.6",
   "description": "CSS-in-JS implementation of normalize.css for Stitches",
   "author": "Tushar Choudhari <choudharit23@gmail.com>",
   "license": "MIT",
