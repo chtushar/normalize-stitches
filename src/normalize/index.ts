@@ -1,31 +1,9 @@
-import type {
-  OmitKey,
-  InternalCSS,
-  TMedias,
-  CSSPropertiesToTokenScale,
-  DeclarationListWithRootAtRules,
-} from '@stitches/core';
-/**
- * Type for `definition` parameter in `global` function
- *
- * reference - https://github.com/modulz/stitches/blob/1fa120b8c29789d5ef464958bdb5e9e493b16fe8/packages/react/types/styled.d.ts#L276
- */
-export type GloablDefinition =
-  | OmitKey<
-      Record<
-        string,
-        /*@ts-ignore */
-        InternalCSS<{} & TMedias, {}, {}, CSSPropertiesToTokenScale>
-      >,
-      '@font-face' | '@import'
-    >
-  | DeclarationListWithRootAtRules;
 /**
  * CSS to normalize abnormalities across browsers (normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css)
  * @example
  * ```ts
  * import { global } from '@stitches/react';
- * import { normalize } from 'modern-normalize';
+ * import { normalize } from 'normalize-stitches';
  *
  * const globalStyles = global({
  *  ...normalize,
@@ -354,4 +332,4 @@ export const normalize = {
   '[hidden]': {
     display: 'none',
   },
-} as GloablDefinition;
+};
