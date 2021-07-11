@@ -1,2 +1,2 @@
-export { normalize } from './normalize/normalize';
-export type { GloablDefinition } from './normalize/normalize';
+export { normalize } from './normalize';
+export type { GloablDefinition } from './normalize';
